@@ -1,0 +1,13 @@
+[package]
+name = "aec-read"
+description = "Reads the objects of AutoCAD Architecture drawings: what an object is and the geometry it shows"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[dependencies]
+aec-core.workspace = true
+
+[dev-dependencies]
+acadrust.workspace = true

@@ -1,0 +1,34 @@
+# Drawings: never commit (see README, "Test data")
+*.dwg
+*.dxf
+*.dwt
+*.dws
+*.bak
+*.dwl
+*.dwl2
+*.obj
+*.mtl
+samples/
+exports/
+corpus/
+
+# Build output
+target/
+*.dll
+*.pdb
+*.lib
+*.exp
+*.so
+*.dylib
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Editors / OS
+.vs/
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

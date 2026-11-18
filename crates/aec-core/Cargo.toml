@@ -1,0 +1,10 @@
+[package]
+name = "aec-core"
+description = "Decoding layer of the AutoCAD Architecture reader: the graphics an object carries, to triangles and lines"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[dependencies]
+earcutr.workspace = true

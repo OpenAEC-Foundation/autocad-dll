@@ -1,0 +1,24 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/aec-core",
+    "crates/aec-read",
+    "crates/aec-cli",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "LicenseRef-Proprietary"
+publish = false
+
+[workspace.dependencies]
+aec-core = { path = "crates/aec-core" }
+aec-read = { path = "crates/aec-read" }
+earcutr = "0.5"
+# The DWG codec the command line tool and the corpus test open drawings with. The library crates
+# do not depend on it: they take the bytes of one object.
+acadrust = { git = "https://github.com/hakanaktt/acadrust.git", rev = "eababc03", default-features = false }
+
+[profile.release]
+lto = "thin"

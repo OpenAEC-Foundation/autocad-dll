@@ -1,0 +1,16 @@
+[package]
+name = "aec-cli"
+description = "Command line tool: prints what an AutoCAD Architecture drawing holds and writes an OBJ for checking"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[[bin]]
+name = "aec"
+path = "src/main.rs"
+
+[dependencies]
+aec-core.workspace = true
+aec-read.workspace = true
+acadrust.workspace = true
