@@ -4,10 +4,9 @@ Native library that reads the objects of AutoCAD Architecture drawings (`.dwg`):
 windows, slabs, roof slabs, curtain walls, stairs, structural members. For use by
 [open-bim-suite](https://github.com/OpenAEC-Foundation/open-bim-suite) and other tools.
 
-**Status:** private, pre-alpha. Of the 111 sample drawings (AutoCAD Architecture 2008 and 2025)
+**Status:** pre-alpha. Of the 111 sample drawings (AutoCAD Architecture 2008 and 2025)
 53 hold objects, 31 of them objects that are drawn as bodies; three drawings do not open in the
-codec. What is and is not read is listed under "What is read". Do not make this repository public
-without a decision by the maintainers (see "Legal").
+codec. What is and is not read is listed under "What is read".
 
 ## Scope
 
